@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="login.css">
+<style>
+
+</style>
+</head>
+<body class="body">
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="homepage.html"><span>PET</span>    Clinic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Services 1.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Service
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="services 1.html">Veterinary Care</a></li>
+                        <li><a class="dropdown-item" href="services 1.html">Emergency Care</a></li>
+                        <li><a class="dropdown-item" href="services 1.html">Examination</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="infection 1 2.html">Infections</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-10 my-3 mx-auto f-box">
+            <div class="row">
+                <div class="col-md-7 my-5">
+                    <div class="text text-center">
+                        <h1 class="my-2">Welcome!</h1>
+                        <h3 class="my-2">To Our Website</h3>
+                        <p>Schedule your pet's appointment hassle-free! Choose your preferred date and time for top-notch care at our Pet Clinic.</p>
+                        <ul class="nav d-flex justify-content-center">
+                            <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-twitter mx-2"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-facebook mx-2"></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-instagram mx-2"data-bs-toggle="tooltip" ></i></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-pinterest ms-2"data-bs-toggle="tooltip" ></i></a></li>
+                        </ul> 
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5 pb-3 box">
+                    <form action="index.html" class="form-login p-3">
+                        <h2 class="text-center">Log In</h2>
+                        <div class="inputBox">
+                            <input type="email" name="email" 
+                            required onkeyup="this.setAttribute('value', this.value);" value="" 
+                            class="field" style="font-family: FontAwesome;" placeholder="&#xf0e0">
+                            <label>Email</label>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" name="psw" 
+                            required onkeyup="this.setAttribute('value', this.value);" value=""
+                            class="field" style="font-family: FontAwesome;" placeholder="&#xf023">
+                            <label>Password</label>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="f-check" checked>
+                                <label class="form-check-label" for="f-check">Remember me</label>                                                               
+                            </div>
+                            <a class="form-link" href="#">Forgot password?</a>
+                        </div>                
+                        <div class="d-grid gap-3 my-3">
+                          <button type="submit" class="btn btn-success" style="--bs-btn-font-size: 1rem">Login</button>  
+                        </div>
+                        <p class="text-center">Don't have an account? <a href="#">Sign up</a></p>                                                      
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer my-5">
+    <div class="container">
+        <div class="row my-3 d-flex align-items-center footer-row">
+            <div class="col-md-1 text-md-start text-center"><img src="logo.png" alt="logo" width="50px"></div>
+            <div class="col-md-5">
+              <ul class="nav d-flex flex-row justify-content-md-start justify-content-around align-items-center">
+                <li class="nav-item">© <span class="text-black">2024 Mocha</span></li>
+                  <li class="nav-item"><a href="aboutus.html#references-section" class="nav-link text-dark">References</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transition</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    .btns {
+      padding: 20px;
+    }
+
+    .btns .btn {
+      padding: 15px;
+      border: none;
+      color: black;
+      animation: grow 3s linear infinite alternate;
+    }
+
+    @keyframes grow {
+      0% {
+        transform: scale(1);
+      } 
+      100% {
+        transform: scale(1.2);
+      }
+    }
+
+    .btns .btn.shrink {
+      animation: shrink 3s linear 0s infinite alternate;
+    }
+
+    @keyframes shrink {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0.8);
+      }
+    }
+    .btns .btn.tilt{animation: tilt 3s linear 0s alternate infinite;}
+    @keyframes tilt{
+     0%{transform: rotate(0deg); }
+     100%{transform: rotate(15deg);}
+  }
+  .btn .btn.slide{
+    position: relative;
+    overflow: hidden;
+    transform: translateZ(0px);
+  }
+    /* Background Color Slide */
+    @keyframes slide-bg{
+      0%{transform: scalex(0);}
+      100%{transform: scalex(1);}
+    }
+    @keyframes slide-bgv
+       0%{transform: scaleY(0);}
+       100%{transform: scaleY(1);}
+
+  .btns .btn.slide: :before{
+    content:"";
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    background-color: #f37736;
+    z-index: -1;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="btns">
+    <button class="btn btn-light grow">Grow Effect</button>
+    <button class="btn btn-light shrink">Shrink Effect</button>
+    <button class="btn btn-light tilt">Tilt Effect</button>
+    <button class="btn btn-slide">Slide</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

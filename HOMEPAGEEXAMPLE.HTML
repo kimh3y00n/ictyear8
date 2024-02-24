@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="examplehome.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
+  <nav id="navbarNav" class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>PET</span> Clinic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Service
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#veterinary-care">Veterinary Care</a></li>
+                        <li><a class="dropdown-item" href="#emergency-care">Emergency Care</a></li>
+                        <li><a class="dropdown-item" href="#examination">Examination</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#infections">Infections</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="home" class="image-container">
+  <img src="homepic.png" alt="Image under navbar" class="img-fluid" style="width: 100%;">
+  <div class="image-overlay">
+      <h1>Welcome to Our Pet Clinic</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#" class="button">Make Appointment</a>
+  </div>
+</div>
+
+    
+<div id="services" class="container">
+    <!-- Services Section -->
+    <h2>Our Main Services</h2>
+    <div class="services">
+      <div id="veterinary-care" class="card">
+        <img src="service1.png" alt="Service 1">
+        <h3>Veterinary Care</h3>
+        <p>For excellent veterinarian care, put your trust in our clinic. We focus on the health of your pet, caring for everything from routine check-ups to specialist treatments.</p>
+        <a href="#" class="button">See More</a>
+      </div>
+
+      <div id="emergency-care" class="card">
+        <img src="service2.jpg" alt="Service 2">
+        <h3>Emergency care</h3>
+        <p>When an emergency hits, you can rely on our highly trained employees to respond quickly, giving your pet's well-being the necessary attention and caring assistance it needs.</p>
+        <a href="#" class="button">See More</a>
+      </div>
+
+      <div id="examination" class="card">
+        <img src="service3.jpg" alt="Service 3">
+        <h3>Examination</h3>
+        <p>Make sure your pet is healthy by getting regular checkups. Thorough health assessments are performed by our skilled veterinarians to identify and avoid possible problems.</p>
+        <a href="#" class="button">See More</a>
+      </div>
+    </div>
+</div>
+    
+<!-- Carousel Section -->
+<div id="carouselExample" class="carousel slide container" data-bs-ride="carousel">
+    <h2>Our Clinic in Pictures</h2>
+
+    <div class="carousel-inner">
+        <!-- 1 -->
+        <div class="carousel-item active">
+            <img src="clinic1.jpg" class="d-block w-100" alt="Clinic 1">
+            <div class="carousel-caption d-none d-md-block">
+                <p>Our welcoming reception area ensures a comfortable experience for both pets and their owners.</p>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="carousel-item">
+            <img src="clinic2.jpg" class="d-block w-100" alt="Clinic 2">
+            <div class="carousel-caption d-none d-md-block">
+                <p>Our state-of-the-art examination rooms are equipped to handle all your pet's health needs.</p>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="carousel-item">
+            <img src="clinic3.jpg" class="d-block w-100" alt="Clinic 3">
+            <div class="carousel-caption d-none d-md-block">
+                <p>Our caring staff is committed to providing exceptional service and creating a positive environment.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
+<!-- Timeline Section -->
+<section id="infections" class="timeline-section container mt-5">
+  <h2>Our Journey</h2>
+  <div class="timeline">
+      <div class="timeline-event">
+          <div class="timeline-date">2010</div>
+          <div class="timeline-content">
+              <h3>Establishment of Pet Clinic</h3>
+              <p>We opened our doors to provide exceptional care for pets in the community.</p>
+          </div>
+      </div>
+
+      <div class="timeline-event">
+          <div class="timeline-date">2015</div>
+          <div class="timeline-content">
+              <h3>Expansion of Services</h3>
+              <p>Introduced emergency care services and expanded our team of skilled veterinarians.</p>
+          </div>
+      </div>
+
+      <div class="timeline-event">
+          <div class="timeline-date">2020</div>
+          <div class="timeline-content">
+              <h3>State-of-the-Art Facilities</h3>
+              <p>Upgraded our clinic with modern examination rooms and advanced medical equipment.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="contact-us" class="footer my-5">
+    <div class="container">
+        <div class="row my-3 d-flex align-items-center footer-row">
+            <div class="col-md-1 text-md-start text-center"><img src="logo.png" alt="logo" width="50px"></div>
+            <div class="col-md-5">
+                <ul class="nav d-flex flex-row justify-content-around">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Designer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Talent</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Inspiration</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Advertising</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-dark">
+                <ul class="nav d-flex flex-row justify-content-around">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 d-flex justify-content-md-end justify-content-around">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-facebook mx-2"
+                                data-bs-toggle="tooltip" data-bs-title="Facebook" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-instagram mx-2"
+                                data-bs-toggle="tooltip" data-bs-title="Instagram" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark"><i class="bi bi-pinterest ms-2"
+                                data-bs-toggle="tooltip" data-bs-title="Pinterest" data-bs-placement="bottom"
+                                data-bs-custom-class="custom-tooltip"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <ul class="nav d-flex flex-row justify-content-md-start justify-content-around align-items-center">
+                    <li class="nav-item">© 2024 Mocha</li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Terms</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 d-flex flex-row justify-content-md-end justify-content-around">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Jobs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Places</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-dark">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    tooltips.forEach(t => { new bootstrap.Tooltip(t) })
+</script>
+
+<!-- Bootstrap JS and Popper.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>

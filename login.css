@@ -1,0 +1,137 @@
+.body{
+    background-image: url("m-bg.jpg");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-color: #f7f5e6;
+    backdrop-filter: blur(2px);
+    color: white;
+
+    .navbar {
+      background-color: #525c6c;
+  }
+  .navbar-nav .nav-link {
+      color: #f7f5e6;
+      font-family: Trebuchet MS, sans-serif;
+  }
+  .navbar-nav .nav-link:hover {
+      color: #f0dfa3;
+  }
+  .navbar-nav .nav-link.active {
+      color: #f0dfa3;
+  }
+  .navbar-brand {
+      text-transform: uppercase;
+      font-family: fantasy;
+  }
+  .navbar-brand span {
+      text-decoration: underline;
+  }
+  .navbar-nav {
+      margin-left: auto;
+  }
+  .nav-item:hover .dropdown-menu {
+      display: block;
+      background-color: #525c6c; 
+  }
+  .dropdown-menu a {
+      color: #f7f5e6;
+      font-family: Trebuchet MS, sans-serif;
+  }
+  .dropdown-menu a:hover {
+      color: #f0dfa3;
+  }    
+}
+.f-box{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 20px;
+}
+.f-box h1{
+    font-size: 4rem;
+       
+}
+.f-box h3{
+    font-size: 2rem;
+       
+}
+.form-login .ft-box{
+    background: transparent;
+}
+.f-box a{
+    color: white;
+    text-decoration: none;
+}
+.bi{color: #fff;}
+.box{
+    background-image: inherit;
+    backdrop-filter: blur(5px);
+}
+/*textbox transition */
+  .box h2 {
+    margin: 0 0 1.875rem;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .box .inputBox {
+    position: relative;
+  }
+  
+  .box .inputBox input {
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .box .inputBox input:focus ~ label,
+  .box .inputBox input:valid ~ label,
+  .box .inputBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 0;
+    color: #fff;
+    font-size: 0.75rem;
+  }
+  
+  .box input[type="submit"] {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #03a9f4;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+  }
+  
+  .box input[type="submit"]:hover {
+    background-color: transparent;
+  }
+  
+  .field::-webkit-input-placeholder {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+  }

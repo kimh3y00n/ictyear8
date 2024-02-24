@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+
+</style>
+</head>
+  <body>
+    <!--Footer section-->
+    <footer class="footer my-5">
+        <div class="container">
+            <div class="row my-3 d-flex align-items-center footer-row"> <!--Four column at first row in footer-->
+                <div class="col-md-1 text-md-start text-center"><img src="logo.png" alt="logo" width="50px"></div><!--logo in footer-->
+                <div class="col-md-5">
+                    <ul class="nav d-flex flex-row justify-content-around"> <!--1st links group-->
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Designer</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Talent</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Inspiration</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Advertising</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3  text-dark"><!--2nd links group-->
+                    <ul class="nav d-flex flex-row justify-content-around">
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Carrier</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Support</a></li>
+                    </ul>
+                </div>
+                <!--Social Media in the fourth column in first row of footer-->
+                <div class="col-md-3 d-flex justify-content-md-end justify-content-around">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">
+                            <i class="bi bi-twitter mx-2" data-bs-toggle="tooltip" data-bs-title="Twitter" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">
+                            <i class="bi bi-facebook mx-2"data-bs-toggle="tooltip" data-bs-title="Facebook" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">
+                            <i class="bi bi-instagram mx-2"data-bs-toggle="tooltip" data-bs-title="Instagram" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"></i></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">
+                            <i class="bi bi-pinterest ms-2"data-bs-toggle="tooltip" data-bs-title="Pinterest" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"></i></a></li>
+                    </ul>    
+                </div>
+            </div>
+            <!--Two columns at second row in footer-->
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <ul class="nav d-flex flex-row justify-content-md-start justify-content-around align-items-center">
+                        <li class="nav-item">© 2024 Mocha</li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Terms</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6  d-flex flex-row justify-content-md-end justify-content-around">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Jobs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Designers</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Freelancers</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Places</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-dark">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+        const tooltips=document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        tooltips.forEach(t=>{new bootstrap.Tooltip(t)})
+    </script>
+</body>
+</html>
